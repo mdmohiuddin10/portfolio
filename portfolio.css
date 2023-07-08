@@ -82,9 +82,46 @@ nav a{
 /*  main section style*/
 
 /* about section  style */
+main {
+    max-width: 1140px;
+    margin: 0, auto;
+}
+main section {
+    margin-top: 130px;
+}
 .about {
     padding: 100px;
     border-radius: 10px;
     background: #FFF8F3;
     margin: 100px;
+}
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+.about-info {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+
+/*  What i do section  */
+
+#what-i-do-description {
+    padding: 30px 100px;
+}
+
+.skills-container {
+    display: flex;
+    gap: 20px;
+}
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    
+}
+.skill-description {
+    color: #757575;
 }
