@@ -12,7 +12,10 @@ body {
     border: 0;
     font-size: 20px;
     font-weight: 700;
-    padding: 15px 35px;
+    padding: 15px 10px;
+}
+.btn-primary i{
+    margin-right: 5px;
 }
 .section-title {
     color: #181818;
@@ -54,9 +57,9 @@ nav a{
 /*header*/
 .header {
     background: #FFF8F3;
-    background-image: url('./img/header_bg.png');
+    background-image: url('./img/header_bg.png'), url('./img/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 .banner {
     padding: 30px 20px 0px 100px;
