@@ -194,3 +194,51 @@ footer{
     width: 100%;
 
 }
+.hide {
+    display: none;
+}
+
+
+
+
+@media screen and (max-width: 576px) {
+    footer, .resume-container, .skills-container, .about-info-container, .banner, nav > ul {
+        flex-direction: column;
+    }
+    nav li {
+        margin-bottom: 5px;
+    }
+    footer,.resume-container, #what-i-do-description {
+        padding: 10px;
+    }
+    .footer-column {
+        width: 100%;
+    }
+    .social-links {
+        text-align: center;
+        padding: 15px;
+    }
+    .contact input[type="text"], input[type="email"], textarea {
+        width: 80%;
+    }
+    main section {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .header {
+        background: #FFF8F3;
+        background-image: url('./img/header_bg.png');
+        background-repeat: no-repeat;
+        background-position: bottom right;
+    }
+    .banner .profile-picture {
+        width: 100%;
+    }
+    .hire {
+        font-size: 16px;
+        padding: 5px;
+    }
+    .btn-primary {
+        margin-bottom: 10px;
+    }
+}
